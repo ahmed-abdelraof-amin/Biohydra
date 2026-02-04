@@ -373,7 +373,42 @@ p {
     background-color: #ffffff;
     padding: 80px 0;
 }
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+}
 
+.about-mission {
+    font-size: 1.2rem;
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+}
+
+.about-details {
+    display: grid;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.mission, .vision {
+    background-color: var(--light-gray);
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid var(--eco-green);
+}
+
+.mission h3, .vision h3 {
+    color: var(--deep-blue);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.mission h3 i, .vision h3 i {
+    color: var(--eco-green);
+}
 .team-section .section-header {
     text-align: center;
     margin-bottom: 50px;
@@ -1347,3 +1382,4 @@ p {
     }
 
 }
+
